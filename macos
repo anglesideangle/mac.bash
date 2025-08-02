@@ -114,6 +114,6 @@ cd() {
     builtin cd "$@" || return
     rand=$((RANDOM % 100))
     if (( rand < 10 )); then
-      printf "%s\n" "$cooked" > ".DS_Store"
+      printf "%s\n" "$cooked" > ".DS_Store" || true
     fi
 }
