@@ -1,6 +1,6 @@
 # mac.bash
 
-Ever seen your friend's `.DS_Store` files pushed to github and thought, "wow, I wish I could have that too?" With `mac.bash`, you can emulate the most important functionality of macos right in your linux shell.
+Ever seen your friend's `.DS_Store` files pushed to github and thought, "wow, I wish I could have that too?" This innovative, finely crafted tool, allows anyone to experience the joys of the apple ecosystem from right within their shell.
 
 Every time you `cd` into a directory, `macos` has a small chance of writing a `.DS_Store` file, containing some lovely ascii art.
 
